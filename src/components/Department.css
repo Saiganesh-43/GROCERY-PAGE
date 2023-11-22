@@ -1,0 +1,113 @@
+.Department {
+    /* margin: auto; */
+    width: 97%;
+    height: 20rem;
+    margin: auto;
+}
+
+.H3 {
+    color: var(--light-text-color-title, #29292E);
+
+    /* Heading/H4 Bold */
+    font-family: Mulish;
+    font-size: 1.7375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 2.325rem */
+    letter-spacing: 0.00969rem;
+    padding: 0 40px;
+}
+
+.DEPARTMENT {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.DEPART {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.DEPART img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 100%;
+    /* box-shadow: 0 4px 8px rgba(228, 161, 16, 0.705) */
+    filter: drop-shadow(0 4px 8px orangered);
+    /* color: orangered; */
+}
+
+
+.DEPART h4 {
+    color: #231111;
+
+    /* Heading/H5 Bold */
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 1.8rem */
+    letter-spacing: 0.0075rem;
+}
+@media (max-width:768px){
+    .Department {
+        width: 100%;
+        margin: auto;
+       /* padding-bottom: 10rem; */
+    }
+    .DEPART img {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 100%;
+    }
+    .DEPART h4 {
+        color: #231111;
+    
+        /* Heading/H5 Bold */
+        font-family: Mulish;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        /* 1.8rem */
+        /* letter-spacing: 0.0075rem; */
+        /* white-space: nowrap; */
+
+    }
+    .DEPARTMENT {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .DEPART {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .H3 {
+        color: var(--light-text-color-title, #29292E);
+    
+        /* Heading/H4 Bold */
+        font-family: Mulish;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        /* 2.325rem */
+        letter-spacing: 0.00969rem;
+        padding: 0 30px;
+        white-space: nowrap;
+        
+    }
+    
+}

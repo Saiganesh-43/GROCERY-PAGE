@@ -1,0 +1,123 @@
+.Gradient {
+    border-radius: 0.5rem;
+    background: linear-gradient(180deg, #3C0850 0%, rgba(92, 10, 10, 0.85) 100%);
+    width: 90%;
+    height: 27.5rem;
+    flex-shrink: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.SMI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: var(--light-base-color-white, #FFF);
+    text-align: center;
+
+    /* Heading/H2 Bold */
+    font-family: Mulish;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 3.6rem */
+    letter-spacing: 0.015rem;
+    width: 34.3125rem;
+
+}
+
+.SMI img {
+    height: 26rem;
+}
+
+.Info button {
+    border-radius: 0.5rem;
+    background: var(--light-base-color-white, #FFF);
+    display: flex;
+    width: 16.5rem;
+    height: 4rem;
+    /* padding: 2.5rem 5rem; */
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border: none;
+    color: var(--light-text-color-title, #29292E);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.125rem;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 1.35rem */
+    letter-spacing: 0.00563rem;
+    cursor: pointer;
+}
+
+.FDCP {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    bottom: 1.5rem;
+
+}
+
+/* Media query for screens below 768px */
+@media (max-width: 768px) {
+    .Gradient {
+        flex-direction:row;
+        height:12rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        width: 100%;
+        margin-bottom: 1rem;
+        margin: auto;
+        padding-top: 1.2rem;
+    }
+
+    .SMI img {
+        display: none;
+
+    }
+    .SMI{
+        display: none;
+    }
+
+    .Info button {
+        width:8rem;
+        height: 3rem;
+        /* margin-bottom: 1rem; */
+        white-space: nowrap;
+        border-radius: 0.4rem;
+
+
+    }
+
+    .FDCP {
+        flex-direction:row;
+        gap: 1rem;
+    }
+    .SMI{
+       width: 100%;
+    }
+}

@@ -1,0 +1,190 @@
+.FooterFD {
+    width: 100%;
+    height: auto;
+}
+
+.OuterDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: rem;
+    /* margin: auto; */
+}
+
+.License {
+    padding-left: 3.2rem;
+    margin: 1rem;
+    color: var(--light-text-color-body-1, #727272);
+    margin-top: 0.4rem;
+
+    /* Body/Body 1 Regular */
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 19.2px */
+    letter-spacing: 0.08px;
+}
+
+.Div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Div1 h3 {
+   margin-bottom: 0.3rem;
+    display: flex;
+    gap: 0.6rem;
+    padding-left: 2rem;
+    color: var(--light-text-color-title, #29292E);
+
+    /* Body/Body 1 Regular */
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 1.2rem */
+    letter-spacing: 0.005rem;
+
+}
+
+.Div2,
+.Div3,
+.Div4 {
+    display: block;
+    justify-content: center;
+}
+
+.Div1 img {
+    width: 24rem;
+    height: 3.3rem;
+    margin-bottom: 0.3rem;
+
+
+}
+
+.Div2 h5,
+.Div3 h5 {
+    margin: 0.8rem;
+    color: var(--light-text-color-title, #29292E);
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.08px;
+    white-space: nowrap;
+    margin-left: 3px;
+
+}
+
+.Div4 h5 {
+    color: var(--light-text-color-body-1, #727272);
+
+    /* Body/Body 1 Regular */
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 120%;
+    /* 19.2px */
+    letter-spacing: 0.08px;
+    margin: 0.7rem;
+    margin-left: 3px;
+}
+
+.Div4 input {
+    border-radius: 8px;
+    border: 1px solid var(--light-separators-color-primary, #DBDBDB);
+    background: var(--light-base-color-white, #FFF);
+    width: 367px;
+    height: 56px;
+    flex-shrink: 0;
+    padding: 0 20px;
+    color: var(--light-text-color-body-2, #9797A6);
+
+    /* Body/Body 1 Regular */
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 19.2px */
+    letter-spacing: 0.08px;
+}
+
+.Div4 button {
+    display: inline-flex;
+    height: 3rem;
+    padding: 0.75rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: #C00707;
+    color: var(--light-base-color-white, #FFF);
+    text-align: center;
+
+    /* Menu/Menu 2 Bold */
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 1.05rem */
+    letter-spacing: 0.02rem;
+    border: none;
+}
+.Div5{
+    display: flex;
+    gap: 4rem;
+}
+/* Existing styles */
+
+/* Media Query for tablets and smaller screens */
+@media only screen and (max-width: 768px) {
+    .OuterDiv {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .Div1,
+    .Div4 {
+        width: 100%;
+        text-align:center;
+    }
+
+    .Div1 h3 {
+        padding-left:0.6rem; /* Adjust padding for smaller screens */
+    }
+
+    .Div1 img {
+        width: 100%; /* Make the image responsive */
+        max-width: 400px; /* Limit maximum width */
+        height: auto;
+    }
+
+    .Div4 input {
+        width: 80%; /* Make the input field full width */
+    }
+
+    .Div4 button {
+        width: 90%; /* Make the button full width */
+    }
+
+    .Div2,
+    .Div3 {
+        width: 50%; /* Make Div2 and Div3 take 50% each of the width */
+        text-align: left;
+    }
+    .Div5{
+        gap: 1rem;
+    }
+}
+
+
+

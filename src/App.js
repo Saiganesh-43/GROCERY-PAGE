@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Banner from "./components/Banner";
+import BestSeller from "./components/BestSeller";
+import BottomBar from "./components/BottomBar";
+import Dairy from "./components/Dairy";
+import Department from "./components/Department";
+import DiscountWeek from "./components/DiscountWeek";
+import FooterFD from "./components/FooterFD";
+import Fresh from "./components/Fresh";
+import FreshFood from "./components/FreshFood";
+import HeaderFD from "./components/HeaderFD";
+import Offers from "./components/Offers";
+import ProductMC from "./components/ProductMC";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <HeaderFD />
+      <Banner />
+      <Offers />
+      <ProductMC />
+      <BestSeller />
+      <DiscountWeek />
+      <FreshFood />
+      <Fresh />
+      <Dairy />
+      <Department />
+      <FooterFD />
+      <BottomBar />
     </div>
   );
 }

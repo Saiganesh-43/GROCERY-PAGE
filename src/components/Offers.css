@@ -1,0 +1,139 @@
+.Offers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+    gap: 2rem;
+    width: 100%;
+    height: 26.1rem;
+    background: linear-gradient(180deg, #5f879e 0%, rgba(62, 26, 170, 0.171) 100%);
+    overflow: hidden;
+}
+
+.Offers img {
+    width: 24rem;
+    border-radius: 0.4rem;
+    height: 12rem;
+
+}
+
+.Offers h4 {
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.0045rem;
+    word-spacing: 0.1rem;
+    color: whitesmoke;
+    margin: 0%;
+    padding-left: 1.5rem;
+    padding-top: 0.4rem;
+    text-align: left;
+    word-wrap: none;
+}
+
+.Offers a {
+    text-decoration: none;
+    position: relative;
+    bottom: 0.7rem;
+    left: 16rem;
+    color: var(--light-base-color-white, #FFF);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.005rem;
+
+}
+
+.O2 h4 {
+    padding-top: 0.7rem;
+}
+
+.O1,
+.O2,
+.O3 {
+    width: 24rem;
+    height: 17.5rem;
+    flex-shrink: 0;
+    border-radius: 0.4rem;
+    align-items: center;
+}
+
+.O1,
+.O3 {
+    background: linear-gradient(180deg, #FB0AAA 54.52%, rgba(246, 251, 10, 0.90) 100%);
+}
+
+.O2 {
+
+    background: linear-gradient(180deg, #4747CF 0%, rgba(208, 31, 158, 0.69) 100%);
+}
+
+@media (max-width:768px) {
+    .Offers {
+        padding-top: rem;
+        width: 100%;
+        height: 8rem;
+        margin: auto;
+        gap: 0.5rem;
+    }
+
+    .O1,
+    .O2,
+    .O3 {
+        width: 30%;
+        /* height: auto; */
+        flex-shrink: 0;
+        border-radius: 0.4rem;
+        /* align-items: center; */
+        height: 6rem;
+    }
+
+    .O1 img,
+    .O2 img,
+    .O3 img {
+        width: 100%;
+        height: 3.8rem;
+
+    }
+    .O2 h4{
+        
+    }
+
+    .Offers h4{
+        font-family: Mulish;
+        font-size: 0.56rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: 0.0045rem;
+        word-spacing: 0rem;
+        color: whitesmoke;
+        margin: 0%;
+        padding: 0%;
+        padding-left: 7%;
+        padding-top: 3%;
+        text-align: left;
+    }
+
+    .O1 a,
+    .O2 a,
+    .O3 a {
+        display: none;
+        text-decoration: none;
+        position: relative;
+        bottom: 0.7rem;
+        /* left: 16rem; */
+        color: var(--light-base-color-white, #FFF);
+        font-family: Mulish;
+        font-size: 0.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: 0.005rem;
+
+    }
+}
